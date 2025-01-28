@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className='flex items-center justify-between pt-6 text-white'>
+    <nav className='flex max-w-[77rem] mx-auto items-center justify-between pt-6 text-white'>
       <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-white cursor-pointer to-[#767585] text-3xl font-inter font-semibold transition-all duration-300 hover:scale-105'>
         ICNITY
       </h1>
@@ -12,7 +12,7 @@ const NavBar = () => {
           <li key={item}>
             <a 
               href={`#${item.toLowerCase()}`} 
-              className="text-[#dfe2e7] text-sm sm:text-base font-medium hover:text-[#f5f5f6] transition-colors duration-300 relative group uppercase"
+              className="text-[#dfe2e7] text-sm sm:text-base font-pop  hover:text-[#f5f5f6] transition-colors duration-300 relative group uppercase"
             >
               {item}
               <span className="absolute left-0 right-0 bottom-[-1px] h-[1.3px] bg-[#ebecef] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
