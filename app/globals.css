@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,4 +20,24 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+@supports (-moz-appearance: none) {
+  .firefox-blur-fix {
+    --blur-radius: 80px;
+    /* --scale-factor: 0.6; */
+    filter: blur(var(--blur-radius)) !important;
+    transform: scale(var(--scale-factor));
+    opacity: 0.4;
+  }
+  
+  .firefox-blur-fix::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, 
+      rgba(0, 163, 255, 0.6) 0%,
+      rgba(0, 163, 255, 0.3) 50%,
+      transparent 100%);
+    mix-blend-mode: screen;
+  }
 }
