@@ -8,7 +8,7 @@ export default function Home() {
       <div className="absolute -top-[215px] -left-[215px] w-[40rem] h-[40rem] rounded-full bg-[#00a2ff9f] opacity-30 blur-[170px] firefox:opacity-[0.20]"></div>
       <div className="relative z-10">
         <NavBar />
-        <main className="py-12 pt-[16vh] md:pb-28 sm:pt-[24vh] max-w-[77rem] mx-auto relative px-4 md:px-6 lg:px-8">
+        <main className="py-12 pt-[10rem] md:pb-28 sm:pt-[13rem] max-w-[77rem] mx-auto relative px-4 md:px-6 lg:px-8">
           <div className="max-w-3xl z-10">
             <div className="flex items-center mb-4">
               <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
