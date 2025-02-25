@@ -213,7 +213,7 @@ export default function Home() {
 
         <section className="pt-6 pb-10 md:pb-14 relative px-4 md:px-6 lg:px-8">
           <div className="relative z-10 max-w-[77rem] mx-auto">
-            <h2 className="text-center text-3xl md:text-4xl lg:text-[5.2rem] text-transparent font-inter tracking-wide bg-clip-text bg-gradient-to-r from-[#f5f5f5] to-[#91909f] leading-tight mb-10 md:mb-16">
+            <h2 className="text-center text-3xl md:text-4xl lg:text-[5.2rem] lg:py-6 text-transparent font-inter tracking-wide bg-clip-text bg-gradient-to-r from-[#f5f5f5] to-[#91909f] leading-tight mb-10 md:mb-16">
               Buzz Stats.
             </h2>
             <div className="flex flex-col md:flex-row flex-wrap justify-around gap-6 md:gap-8">
