@@ -82,7 +82,7 @@ const NavBar = () => {
               ))}
             </ul>
 
-            <button className="hidden md:block rounded-full h-[2.85rem] px-7 text-[#00A3FF] dark:text-[#4169E1] bg-[#00A3FF] dark:bg-[#00a2ff2a] hover:bg-[#00a2ff32] transition-all duration-300 ease-in-out transform hover:scale-[1.035] hover:shadow-[0_0_15px_rgba(0,163,255,0.2)] dark:hover:shadow-[0_0_15px_rgba(65,105,225,0.2)] text-lg">
+            <button className="hidden md:block rounded-full h-[2.85rem] px-7 text-[#4169E1] bg-[#00a2ff2a] hover:bg-[#00a2ff32] transition-all duration-300 ease-in-out transform hover:scale-[1.035] hover:shadow-[0_0_15px_rgba(65,105,225,0.2)] text-lg">
               Get Started
             </button>
 

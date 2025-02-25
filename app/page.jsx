@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-3xl z-10">
             <div className="flex items-center mb-4">
               <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
-              <div className="font-inter text-sm">Our Mission</div>
+              <div className="font-inter text-[#e0e0e0] text-sm">Our Mission</div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-transparent font-inter tracking-wide bg-clip-text bg-gradient-to-r from-[#f5f5f5] to-[#91909f] mb-4 leading-tight">
               Build Your Dream <br />
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <div className="flex items-center mb-2">
               <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
-              <div className="font-inter text-sm">About Us</div>
+              <div className="font-inter text-[#e0e0e0] text-sm">About Us</div>
             </div>
             <h2 className="font-inter tracking-wide text-3xl md:text-4xl lg:text-5xl text-[#f5f5f5] mb-1 leading-tight">
               Passion for Digital
@@ -198,10 +198,10 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center z-10">
               <div className="flex items-center justify-center mb-4">
                 <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
-                <div className="font-inter text-sm">Why Choose Us</div>
+                <div className="font-inter text-[#e0e0e0] text-sm">Why Choose Us</div>
                 <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] ml-2"></div>
               </div>
-              <h2 className="text-center text-2xl sm:text-3xl md:text-[3.4rem] font-inter tracking-wide text-[#e5e5e5] text-transparent bg-clip-text bg-gradient-to-b from-[#b8b8b8] to-[#e5e5e5] leading-[1.1] mb-6 md:mb-9">
+              <h2 className="text-center text-2xl sm:text-3xl md:text-6xl font-inter tracking-wide text-[#e5e5e5] text-transparent bg-clip-text bg-gradient-to-b from-[#b8b8b8] to-[#e5e5e5] mb-6 md:mb-9">
                 Your Trusted Partner in <br /> Growth and Innovation
               </h2>
               <div className="flex flex-col md:flex-row justify-between max-w-[77rem] w-full">
@@ -221,7 +221,7 @@ export default function Home() {
                 <h3 className="text-4xl md:text-6xl text-center font-medium font-inter tracking-wide text-white mb-4">
                   12,000<span className="text-[#00A3FF]">+</span>
                 </h3>
-                <h2 className="text-2xl md:text-4xl text-center font-medium mb-3">
+                <h2 className="text-2xl md:text-4xl text-[#e0e0e0] text-center font-medium mb-3">
                   Members all across globe
                 </h2>
                 <p className="text-gray-400 text-center font-inter w-full md:w-[83%] mx-auto">
@@ -233,7 +233,7 @@ export default function Home() {
                 <h3 className="text-4xl md:text-6xl text-center font-medium font-inter tracking-wide text-white mb-4">
                   15<span className="text-[#00A3FF]">+</span>
                 </h3>
-                <h2 className="text-2xl md:text-4xl text-center font-medium mb-3">
+                <h2 className="text-2xl md:text-4xl text-[#e0e0e0] text-center font-medium mb-3">
                   University Collaboration
                 </h2>
                 <p className="text-gray-400 text-center font-inter w-full md:w-[83%] mx-auto">
@@ -245,7 +245,7 @@ export default function Home() {
                 <h3 className="text-4xl md:text-6xl text-center font-medium font-inter tracking-wide text-white mb-4">
                   10<span className="text-[#00A3FF]">+</span>
                 </h3>
-                <h2 className="text-2xl md:text-4xl text-center font-medium mb-3">
+                <h2 className="text-2xl md:text-4xl text-[#e0e0e0] text-center font-medium mb-3">
                   Industry Experts Collabs
                 </h2>
                 <p className="text-gray-400 text-center font-inter w-full md:w-[83%] mx-auto">
@@ -264,11 +264,11 @@ export default function Home() {
         <section className="pt-10 md:pt-14 pb-6 mx-auto max-w-[77rem] px-4 md:px-6 lg:px-8">
           <div className="flex items-center justify-start mb-4">
             <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
-            <div className="font-inter text-sm">Why Choose Us</div>
+            <div className="font-inter text-[#e0e0e0] text-sm">Why Choose Us</div>
           </div>
           <div className="w-full flex flex-col md:flex-row">
             <div className="w-full md:w-[50%] mb-4 md:mb-0">
-              <h2 className="w-full md:w-[90%] text-3xl md:text-4xl lg:text-5xl font-inter tracking-wide">
+              <h2 className="w-full md:w-[90%] text-3xl md:text-4xl lg:text-5xl font-inter tracking-wide text-[#e0e0e0]">
                 Client Testimonials: Real Results, Real Feedback
               </h2>
             </div>
@@ -351,7 +351,7 @@ export default function Home() {
             <div className="text-center">
               <div className="flex items-center justify-center mb-2">
                 <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] mr-2"></div>
-                <div className="font-inter text-sm">
+                <div className="font-inter text-[#e0e0e0] text-sm">
                   Available for building Icnity
                 </div>
                 <div className="w-[1.25rem] rounded-full h-2 bg-[#00a2ffc4] ml-2"></div>
